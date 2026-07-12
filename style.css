@@ -27,6 +27,8 @@ p{
     font-size: 22px;
 
 }
+@media (max-width:768px){
+
 nav{
     background-color: #1a1a4d;
     padding: 15px;
@@ -91,4 +93,5 @@ p strong {
     text-align: justify;
     line-height: 1.6;
     font-size: 17px;
+}
 }
