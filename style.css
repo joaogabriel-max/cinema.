@@ -27,8 +27,6 @@ p{
     font-size: 22px;
 
 }
-@media (max-width:768px){
-
 nav{
     background-color: #1a1a4d;
     padding: 15px;
@@ -59,6 +57,13 @@ p strong {
     color: #ffd700;
     font-weight: bold;
 
+}
+li {
+    color: white;
+    font-weight: bold;
+    text-align:left;
+    font-weight: 350px;
+    font-size: 25px;
 }
 .atores{
     display: flex;
@@ -94,4 +99,37 @@ p strong {
     line-height: 1.6;
     font-size: 17px;
 }
+.filmes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.filme{
+    width: 280px;
+    background: #232323;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+.filme img{
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+    border: 3px solid gold;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.filme h2{
+    color: #f5c518;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.filme p {
+     color: white;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 17px;
 }
