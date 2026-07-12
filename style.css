@@ -58,3 +58,37 @@ p strong {
     font-weight: bold;
 
 }
+.atores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.ator{
+    width: 280px;
+    background: #232323;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+.ator img{
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+    border: 3px solid gold;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.ator h2{
+    color: #f5c518;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.ator p{
+    color: white;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 17px;
+}
