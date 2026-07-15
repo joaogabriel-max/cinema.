@@ -133,3 +133,13 @@ li {
     line-height: 1.6;
     font-size: 17px;
 }
+
+@media {
+    body {
+        height: auto;
+    }
+
+    nav {
+        height: auto;
+    }
+}
